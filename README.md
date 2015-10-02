@@ -6,13 +6,14 @@
 ### What is BUZZER APPLICATION?
 Buzzer application is an app developed as part of Assignment One for CMPUT 301.
 
-### Items contained:
-* UML reference
-* APK file, stored inside /bin/
-* 
-
 ### Video reference:
 https://youtu.be/34B_BH1Axzo
+
+### UML Diagram
+The UML diagram is stored under BuzzerAppUML.png.
+
+### APK
+The APK is stored under /bin/buzzerapp.apk.
 
 ### Code was referenced from the following sources:
 * Rishabh from http://codetheory.in/android-saving-files-on-internal-and-external-storage/
@@ -21,6 +22,3 @@ https://youtu.be/34B_BH1Axzo
 * Agarwal Shankar from http://stackoverflow.com/questions/10860357/is-it-possible-to-read-a-file-from-internal-storage-android
 * polygenelubricants at http://stackoverflow.com/questions/2786777/convert-string-into-two-dimensional-string-array-in-java
 
-
-### UML Diagram
-The UML diagram is stored under BuzzerAppUML.png.
