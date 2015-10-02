@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buzzer!</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content"></string>
+    <string name="title_game_list">Games</string>
+    <string name="title_game_detail">Game Detail</string>
+
+    <string name="title_activity_stats">Button Statistics</string>
+    <string name="title_activity_navigation">Navigation Bar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_clear">Clear Data</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_select_players">SelectPlayersActivity</string>
+
+    <string name="title_activity_two">TwoActivity</string>
+
+    <string name="title_activity_three">ThreeActivity</string>
+
+    <string name="title_activity_four">FourActivity</string>
+    <string name="action_email">Email Statistics</string>
+
+</resources>

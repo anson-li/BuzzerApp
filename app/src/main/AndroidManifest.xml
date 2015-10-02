@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.ansonli.www.buzzerapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name=".SingleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StatsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_stats"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".SelectPlayersActivity"
+            android:label="Player Selection"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".TwoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Game Show - 2 Players"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".ThreeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Game Show - 3 Players"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".FourActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Game Show - 4 Players"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:background="#0099cc"
+        tools:context="ca.ansonli.www.buzzerapp.ThreeActivity">
+
+        <!-- The primary full-screen view. This can be replaced with whatever view
+             is needed to present your content, e.g. VideoView, SurfaceView,
+             TextureView, etc. -->
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:text="Player One"
+            android:id="@+id/button_p1"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#872aba20"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:text="Player Two"
+            android:id="@+id/button_p2"
+            android:layout_gravity="center"
+            android:background="#8a23e383"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:text="Player Three"
+            android:id="@+id/button_p3"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#8a046b67"
+            android:textColor="#ffffff" />
+
+        <!-- This FrameLayout insets its children based on system windows using
+             android:fitsSystemWindows. -->
+
+    </FrameLayout>
+
+    <!-- Side navigation drawer UI -->
+    <ListView
+        android:id="@+id/navList"
+
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="#ffeeeeee"
+        android:fitsSystemWindows="true"
+        android:backgroundTint="#ffffff" />
+
+</android.support.v4.widget.DrawerLayout>
