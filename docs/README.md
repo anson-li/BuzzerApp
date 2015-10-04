@@ -1,5 +1,5 @@
 # BUZZER APPLICATION
-## CMPUT 301
+## CMPUT 291
 ## Assignment 1
 ## Created by Anson Li, 1354766
 
@@ -10,7 +10,7 @@ Buzzer application is an app developed as part of Assignment One for CMPUT 301.
 https://youtu.be/34B_BH1Axzo
 
 ### UML Diagram
-The UML diagram is stored under /docs/BuzzerAppUML.png.
+The UML diagram is stored under BuzzerAppUML.png.
 
 ### APK
 The APK is stored under /bin/buzzerapp.apk.
